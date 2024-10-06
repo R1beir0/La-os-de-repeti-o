@@ -57,7 +57,7 @@ if (pets === 0) {
 }*/
 
 //2
-let arrayOriginal = [10, 20, 30, 40, 45, 50, 55] 
+/*let arrayOriginal = [10, 20, 30, 40, 45, 50, 55]*/
 //a
 /*for(let numero of arrayOriginal) {
 	console.log(numero)
@@ -83,15 +83,28 @@ if(arrayOriginal[i]%2===0) {
  arrayPares(arrayOriginal)*/
 
 //d
-function novaArrayString(array) {
+/*function novaArrayString(array) {
 let novaArray = [];
 for(let i = 0; i<arrayOriginal.length; i++) {
 	novaArray.push("O elemento do índex " + i + " é: " + arrayOriginal[i])
 }
  console.log(novaArray)
 }
-novaArrayString(arrayOriginal)
-
+novaArrayString(arrayOriginal)*/
 
 //e
-
+/*function encontrarMaiorMenor(array) {
+let maior = array[0]; 
+let menor = [0];
+for (let i = 1; i < array.length; i++) {
+if (array[i] > menor) {
+maior = array[i];
+  } 
+  if (array[i] < menor) {
+  menor = array[i];
+  }
+}
+console.log("Maior número:", maior);
+console.log("Menor número:", menor);
+}
+encontrarMaiorMenor(arrayOriginal); */
